@@ -1,3 +1,5 @@
+package smitedreal.smiteddata;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -14,9 +16,9 @@ public class SDAT {
         try {
             this.file = new File(path);
             if (file.createNewFile()) {
-                System.out.println("Created new SDAT file at " + path);
+                System.out.println("Created new sdat.SDAT file at " + path);
             } else {
-                System.out.println("SDAT file already exists at " + path);
+                System.out.println("sdat.SDAT file already exists at " + path);
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -70,11 +72,11 @@ public class SDAT {
     }
 
     public void newLine() {
-    try {
-        Files.write(file.toPath(), System.lineSeparator().getBytes(), java.nio.file.StandardOpenOption.APPEND);
-    }  catch (IOException e) {
-        e.printStackTrace();
-    }
+        try {
+            Files.write(file.toPath(), System.lineSeparator().getBytes(), java.nio.file.StandardOpenOption.APPEND);
+        }  catch (IOException e) {
+            e.printStackTrace();
+        }
     }
     public void writeLines(List<String> lines) {
         try {
@@ -85,9 +87,9 @@ public class SDAT {
     }
     public void deleteFile() {
         if (file.delete()) {
-            System.out.println("Deleted SDAT file at " + file.getPath());
+            System.out.println("Deleted sdat.SDAT file at " + file.getPath());
         } else {
-            System.out.println("Failed to delete SDAT file at " + file.getPath());
+            System.out.println("Failed to delete sdat.SDAT file at " + file.getPath());
         }
     }
     public String getPath() {
@@ -106,9 +108,9 @@ public class SDAT {
         File newFile = new File(file.getParent(), newName);
         if (file.renameTo(newFile)) {
             file = newFile;
-            System.out.println("Renamed SDAT file to " + newName);
+            System.out.println("Renamed sdat.SDAT file to " + newName);
         } else {
-            System.out.println("Failed to rename SDAT file to " + newName);
+            System.out.println("Failed to rename sdat.SDAT file to " + newName);
         }
     }
 
@@ -146,7 +148,7 @@ public class SDAT {
     public void clear() {
         try {
             Files.write(file.toPath(), new byte[0], java.nio.file.StandardOpenOption.TRUNCATE_EXISTING);
-            System.out.println("Cleared all content from the SDAT file.");
+            System.out.println("Cleared all content from the sdat.SDAT file.");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -158,7 +160,7 @@ public class SDAT {
             if (index >= 0 && index < lines.size()) {
                 lines.remove(index);
                 Files.write(file.toPath(), lines, java.nio.charset.StandardCharsets.UTF_8);
-                System.out.println("Deleted line at index " + index + " from the SDAT file.");
+                System.out.println("Deleted line at index " + index + " from the sdat.SDAT file.");
             } else {
                 System.out.println("Index out of bounds. No line deleted.");
             }
