@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b4015aa-dfb0-48e3-abf8-59baf35ca7a9" name="Changes" comment="">
-      <change afterPath="E:/SmitedData/.gitignore" afterDir="false" />
-      <change afterPath="E:/SmitedData/.idea/.gitignore" afterDir="false" />
-      <change afterPath="E:/SmitedData/.idea/misc.xml" afterDir="false" />
-      <change afterPath="E:/SmitedData/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="E:/SmitedData/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="E:/SmitedData/jitpack.yml" afterDir="false" />
-      <change afterPath="E:/SmitedData/pom.xml" afterDir="false" />
-      <change afterPath="E:/SmitedData/src/main/java/SDAT.java" afterDir="false" />
-      <change afterPath="E:/SmitedData/src/main/java/example.java" afterDir="false" />
+    <list default="true" id="4b4015aa-dfb0-48e3-abf8-59baf35ca7a9" name="Changes" comment="SmitedData 1.0&#10;&#10;.sdat&#10;&#10;full working api i think">
+      <change beforePath="E:/SmitedData/.idea/workspace.xml" beforeDir="false" afterPath="E:/SmitedData/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="E:/SmitedData/pom.xml" beforeDir="false" afterPath="E:/SmitedData/pom.xml" afterDir="false" />
+      <change beforePath="E:/SmitedData/src/main/java/SDAT.java" beforeDir="false" afterPath="E:/SmitedData/src/main/java/SDAT.java" afterDir="false" />
+      <change beforePath="E:/SmitedData/src/main/java/example.java" beforeDir="false" afterPath="E:/SmitedData/src/main/java/example.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="E:/SmitedData" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2zBA3om3Rk6nIwmNpKLG1xVOlLi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,17 +36,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.testing.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.fileTypes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.example.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testing.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.SmitedData [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Maven.SmitedData [package]">
+}</component>
+  <component name="RunManager" selected="Application.example">
     <configuration name="example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example" />
       <module name="SmitedData" />
@@ -109,6 +106,19 @@
       <option name="presentableId" value="Default" />
       <updated>1751193896612</updated>
     </task>
+    <task id="LOCAL-00001" summary="SmitedData 1.0&#10;&#10;.sdat&#10;&#10;full working api i think">
+      <option name="closed" value="true" />
+      <created>1751195102003</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751195102003</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SmitedData 1.0&#10;&#10;.sdat&#10;&#10;full working api i think" />
+    <option name="LAST_COMMIT_MESSAGE" value="SmitedData 1.0&#10;&#10;.sdat&#10;&#10;full working api i think" />
   </component>
 </project>
