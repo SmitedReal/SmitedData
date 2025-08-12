@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b4015aa-dfb0-48e3-abf8-59baf35ca7a9" name="Changes" comment="SmitedData 1.1&#10;&#10;SDAT class should now work&#10;example changed&#10;code simplified, made better&#10;&#10;PLEASE DONT USE THIS LIBARY IT SUCKS ITS JUST A JOKE">
-      <change afterPath="E:/SmitedData/target/generated-sources/annotations/example.java" afterDir="false" />
-      <change beforePath="E:/SmitedData/.gitignore" beforeDir="false" />
+    <list default="true" id="4b4015aa-dfb0-48e3-abf8-59baf35ca7a9" name="Changes" comment="SmitedData 1.1.1&#10;&#10;Now it works finally i think PLEASE WORK">
+      <change afterPath="E:/SmitedData/src/main/java/smitedreal/smiteddata/examples/readLines.java" afterDir="false" />
+      <change afterPath="E:/SmitedData/src/main/java/smitedreal/smiteddata/examples/writingLines.java" afterDir="false" />
+      <change beforePath="E:/SmitedData/.idea/misc.xml" beforeDir="false" afterPath="E:/SmitedData/.idea/misc.xml" afterDir="false" />
       <change beforePath="E:/SmitedData/.idea/workspace.xml" beforeDir="false" afterPath="E:/SmitedData/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="E:/SmitedData/jitpack.yml" beforeDir="false" afterPath="E:/SmitedData/jitpack.yml" afterDir="false" />
       <change beforePath="E:/SmitedData/pom.xml" beforeDir="false" afterPath="E:/SmitedData/pom.xml" afterDir="false" />
-      <change beforePath="E:/SmitedData/src/main/java/SDAT.java" beforeDir="false" />
       <change beforePath="E:/SmitedData/src/main/java/example.java" beforeDir="false" />
+      <change beforePath="E:/SmitedData/src/main/java/smitedreal/smiteddata/SDAT.java" beforeDir="false" afterPath="E:/SmitedData/src/main/java/smitedreal/smiteddata/SDAT.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="E:/SmitedData" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SmitedReal&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1a9298fc-11a7-4e22-8d46-1860d98bea19" />
+        <option name="url" value="https://github.com/SmitedReal/SmitedData" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -42,7 +59,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.example.executor": "Run",
+    "Application.readLines.executor": "Run",
     "Application.testing.executor": "Run",
+    "Application.writingLines.executor": "Run",
     "Maven.SmitedData [package].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -52,14 +71,24 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
-  <component name="RunManager" selected="Maven.SmitedData [package]">
-    <configuration name="example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example" />
+  <component name="RunManager" selected="Application.readLines">
+    <configuration name="readLines" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="smitedreal.smiteddata.examples.readLines" />
       <module name="SmitedData" />
-      <option name="WORKING_DIRECTORY" value="E:/SmitedData" />
+      <option name="WORKING_DIRECTORY" value="E://SmitedData" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="writingLines" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="smitedreal.smiteddata.examples.writingLines" />
+      <module name="SmitedData" />
+      <option name="PROGRAM_PARAMETERS" value="writingLines.sdat 100" />
+      <option name="WORKING_DIRECTORY" value="E://SmitedData" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,14 +124,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.example" />
+      <item itemvalue="Application.writingLines" />
+      <item itemvalue="Application.readLines" />
       <item itemvalue="Maven.SmitedData [package]" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.example" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -129,12 +154,32 @@
       <option name="project" value="LOCAL" />
       <updated>1753177147349</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="SmitedData 1.1.1&#10;&#10;Now it works finally i think PLEASE WORK">
+      <option name="closed" value="true" />
+      <created>1753179786391</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753179786391</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SmitedData 1.0&#10;&#10;.sdat&#10;&#10;full working api i think" />
     <MESSAGE value="SmitedData 1.1&#10;&#10;SDAT class should now work&#10;example changed&#10;code simplified, made better&#10;&#10;PLEASE DONT USE THIS LIBARY IT SUCKS ITS JUST A JOKE" />
-    <option name="LAST_COMMIT_MESSAGE" value="SmitedData 1.1&#10;&#10;SDAT class should now work&#10;example changed&#10;code simplified, made better&#10;&#10;PLEASE DONT USE THIS LIBARY IT SUCKS ITS JUST A JOKE" />
+    <MESSAGE value="SmitedData 1.1.1&#10;&#10;Now it works finally i think PLEASE WORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="SmitedData 1.1.1&#10;&#10;Now it works finally i think PLEASE WORK" />
   </component>
 </project>
